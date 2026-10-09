@@ -17,6 +17,15 @@ Dados versionados para consulta do portal do time de Design.
 - `schemas/ai-assessment-submission.schema.json`: contrato de uma submissão.
 - `scripts/validate-data.mjs`: valida os JSONs e aponta datas de origem inválidas sem alterá-las.
 
+## Fonte oficial do assessment DesignIA
+
+- `sources/designia/designia.corable.json`: export original enviado pelo time, preservado para rastreabilidade.
+- `sources/designia/implementation-reference.ts`: conteúdo e regras originais de `data.ts`, `calc.ts` e `hierarchy.ts` do export.
+
+O portal deve reproduzir literalmente os textos das perguntas e das opções presentes no export DesignIA. Não deve resumir, reescrever ou inventar alternativas. A configuração estruturada consumida pela interface deve ser derivada desses arquivos e validada contra eles.
+
+O export é referência de conteúdo e comportamento; ele não deve ser executado diretamente no frontend do Hub. A autenticação, as permissões e a persistência devem seguir a arquitetura do Hub.
+
 ## Recebimento de notas pelo portal
 
 O portal deve enviar uma submissão no formato definido em `schemas/ai-assessment-submission.schema.json` para um backend/edge function. Esse backend deve validar o payload e criar um commit no branch `main` atualizando `data/ai-assessment-submissions.json`.
