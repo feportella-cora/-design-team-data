@@ -1,0 +1,27 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1F7qIcvfl18mVszK_kSuiyFxF-DG-DzgT4_3h5K8kx-k/edit",
+  "snapshotDate": "2026-10-09",
+  "responseCount": 0,
+  "questions": [
+    { "id": "context", "label": "No começo de uma interação com a IA, o que você faz?" },
+    { "id": "source", "label": "A tarefa envolve um detalhe específico da Cora: um componente, um dado, uma métrica. De onde a IA tira isso?" },
+    { "id": "confidentiality", "label": "Como você decide o que pode e o que não pode ser colado numa ferramenta de IA?" },
+    { "id": "workflow", "label": "Como você costuma trabalhar com as ferramentas de IA?" },
+    { "id": "evaluation", "label": "Antes de usar o que a IA produziu, como você avalia?" },
+    { "id": "brand", "label": "O que a IA gera precisa ficar adequada a Cora. Como isso se resolve?" },
+    { "id": "selection", "label": "A IA devolve três saídas e as três estão corretas. Como você decide qual segue?" },
+    { "id": "stop", "label": "Como você decide que já pode parar de iterar num resultado?" },
+    { "id": "handoff", "label": "Depois que o resultado fica bom, o que chega até quem vai construir ou decidir a partir dele?" },
+    { "id": "traceability", "label": "O que fica registrado sobre por que você decidiu de um jeito e não de outro?" },
+    { "id": "q1", "label": "Um output de síntese qualitativa traz a frase ‘o processo é lento demais’ entre aspas, como fala de cliente. Você colou 12 transcrições no pedido. Qual é a primeira coisa a fazer?" },
+    { "id": "q2", "label": "A IA gera uma tela e usa #FF3D71 como cor primária. O DS define #FE3E6D. Qual é o problema mais grave?" },
+    { "id": "q3", "label": "Você pede um benchmark e a IA devolve cinco taxas de conversão de concorrentes, com nome de fonte. Qual é o risco maior?" },
+    { "id": "q4", "label": "Qual destes NÃO deve ser colado numa ferramenta de IA sem passar pela régua de confidencialidade?" },
+    { "id": "q5", "label": "Você escreveu o critério de aceitação antes de rodar. O output ficou bonito, mas não atende o critério. O que deve fazer?" },
+    { "id": "q6", "label": "‘Sinalização’, na taxonomia de prompt do treinamento, significa:" },
+    { "id": "q7", "label": "Em qual etapa o dado disponível é mais incerto, exigindo trabalhar com hipótese em vez de evidência?" },
+    { "id": "q8", "label": "Você repete o mesmo tipo de pedido toda semana e a qualidade oscila. O que fazer?" },
+    { "id": "q9", "label": "A IA devolve três versões de uma tela — as três dentro do branding e funcionais. O que caracteriza uma boa decisão entre elas?" },
+    { "id": "q10", "label": "Você conecta a IA ao Figma via MCP e pede a especificação de um componente. O que ainda precisa ser checado por você?" }
+  ]
+}

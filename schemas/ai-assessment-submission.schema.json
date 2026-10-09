@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/feportella-cora/-design-team-data/schemas/ai-assessment-submission.schema.json",
+  "type": "object",
+  "required": ["id", "submittedAt", "respondent", "answers"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "submittedAt": { "type": "string", "format": "date-time" },
+    "respondent": {
+      "type": "object",
+      "required": ["name", "email"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "email": { "type": "string", "format": "email" }
+      },
+      "additionalProperties": false
+    },
+    "score": { "type": ["number", "null"], "minimum": 0 },
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["questionId", "answer"],
+        "properties": {
+          "questionId": { "type": "string", "minLength": 1 },
+          "answer": { "type": "string" },
+          "score": { "type": ["number", "null"], "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
