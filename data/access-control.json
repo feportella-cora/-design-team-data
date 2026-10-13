@@ -4,7 +4,7 @@
   "people": [
     { "name": "Letícia Pires", "email": "leticia.pires@cora.com.br", "position": "Head", "discipline": "PD", "permission": "Todos" },
     { "name": "Lucía", "email": "lucia@cora.com.br", "position": "GM", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
-    { "name": "Portella", "email": "felipe.portella@cora.com.br", "position": "TL", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
+    { "name": "(Felipe) Portella", "email": "felipe.portella@cora.com.br", "position": "TL", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
     { "name": "Aura Fogaça", "email": "aura.fogaca@cora.com.br", "position": "TL", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
     { "name": "Matheus Ferre", "email": "ferre@cora.com.br", "position": "TL", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
     { "name": "Gabriel Dias", "email": "gabriel.dias@cora.com.br", "position": "TL", "discipline": "PD", "permission": "Junior, pleno, senior, lead, staff, GM" },
