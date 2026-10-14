@@ -10,7 +10,7 @@ Dados versionados para consulta do portal do time de Design.
 
 ## Estrutura
 
-- `data/access-control.json`: pessoas, posição e escopo de acesso.
+- `data/access-control.json`: pessoas, posição, alocação, disciplina e escopo de acesso.
 - `data/time-off-2026.json`: férias, licença remunerada e day off de 2026.
 - `data/ai-assessment-questions.json`: perguntas da avaliação, em ordem, com a origem da nota.
 - `data/ai-assessment-submissions.json`: respostas/notas recebidas pelo portal. Começa vazio porque a planilha de respostas não tinha registros no snapshot de 2026-10-09.

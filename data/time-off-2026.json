@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/1Xr-RXWlKVad0drRPkxlBZkT1MmMEbBFT3qlxnIoV0_k/edit",
-  "snapshotDate": "2026-10-13",
+  "snapshotDate": "2026-10-14",
   "year": 2026,
   "people": [
     { "name": "Aura Fogaça", "vacationPendingDays": 30, "vacationUsedDays": 0, "vacationDates": [], "leaveEntitlementDays": 6, "leavePendingDays": 2, "leaveUsedDays": 4, "leaveDates": ["13/04/2026", "14/04/2026", "15/04/2026", "05/06/2026"] },
